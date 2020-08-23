@@ -9,8 +9,6 @@ import SwiftUI
 
 struct ContentView: View {
     
-//    @ObservedObject var ticketView = FirestoreTicketRepository()
-    
     var dateFormatter: DateFormatter {
         let formatter = DateFormatter()
         formatter.dateStyle = .medium

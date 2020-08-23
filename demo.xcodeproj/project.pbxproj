@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5E3EBFB224F17464008CF32A /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E3EBFB124F17464008CF32A /* AboutView.swift */; };
+		5E3EBFB424F176B7008CF32A /* ContactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E3EBFB324F176B7008CF32A /* ContactView.swift */; };
+		5E79089324EEF8D700BBBA7E /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E79089224EEF8D700BBBA7E /* MenuView.swift */; };
 		5E7AEFA324EA66E000325EBA /* demoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7AEFA224EA66E000325EBA /* demoApp.swift */; };
 		5E7AEFA524EA66E000325EBA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7AEFA424EA66E000325EBA /* ContentView.swift */; };
 		5E7AEFA724EA66E100325EBA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E7AEFA624EA66E100325EBA /* Assets.xcassets */; };
@@ -24,6 +27,7 @@
 		5E7AEFE824EBE6D500325EBA /* CardsStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7AEFE724EBE6D500325EBA /* CardsStackView.swift */; };
 		5E7AEFEA24EBE73A00325EBA /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7AEFE924EBE73A00325EBA /* CardView.swift */; };
 		5E7AEFEC24EC143500325EBA /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7AEFEB24EC143500325EBA /* Utility.swift */; };
+		5E7AEFEF24ED03ED00325EBA /* MathExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7AEFEE24ED03ED00325EBA /* MathExtension.swift */; };
 		6926B0C13C7D8AD497463CF7 /* Pods_demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3274C22C7F7198DA932CFD7B /* Pods_demo.framework */; };
 		99BFC4EC0E1959C2DA3D9CC6 /* Pods_demoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08FB945AC4CCE9766E56BDFB /* Pods_demoTests.framework */; };
 		E915FCA5026610DF0D5B1FAB /* Pods_demo_demoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AC49D302FB4A022DE3551BC /* Pods_demo_demoUITests.framework */; };
@@ -50,6 +54,9 @@
 		08FB945AC4CCE9766E56BDFB /* Pods_demoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_demoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AC49D302FB4A022DE3551BC /* Pods_demo_demoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_demo_demoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3274C22C7F7198DA932CFD7B /* Pods_demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E3EBFB124F17464008CF32A /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
+		5E3EBFB324F176B7008CF32A /* ContactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactView.swift; sourceTree = "<group>"; };
+		5E79089224EEF8D700BBBA7E /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
 		5E7AEF9F24EA66E000325EBA /* demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E7AEFA224EA66E000325EBA /* demoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = demoApp.swift; sourceTree = "<group>"; };
 		5E7AEFA424EA66E000325EBA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -73,6 +80,7 @@
 		5E7AEFE724EBE6D500325EBA /* CardsStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsStackView.swift; sourceTree = "<group>"; };
 		5E7AEFE924EBE73A00325EBA /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		5E7AEFEB24EC143500325EBA /* Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
+		5E7AEFEE24ED03ED00325EBA /* MathExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathExtension.swift; sourceTree = "<group>"; };
 		6E7C43AFC15A9E64C88A4D6F /* Pods-demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-demo.release.xcconfig"; path = "Target Support Files/Pods-demo/Pods-demo.release.xcconfig"; sourceTree = "<group>"; };
 		755DB607EBE8F533833842CE /* Pods-demoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-demoTests.debug.xcconfig"; path = "Target Support Files/Pods-demoTests/Pods-demoTests.debug.xcconfig"; sourceTree = "<group>"; };
 		7AF77F485D4C130A65AF9EA5 /* Pods-demo-demoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-demo-demoUITests.release.xcconfig"; path = "Target Support Files/Pods-demo-demoUITests/Pods-demo-demoUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -147,6 +155,7 @@
 		5E7AEFA124EA66E000325EBA /* demo */ = {
 			isa = PBXGroup;
 			children = (
+				5E7AEFED24ED03DB00325EBA /* extensions */,
 				5E7AEFEB24EC143500325EBA /* Utility.swift */,
 				5E7AEFDC24EBE42000325EBA /* view */,
 				5E7AEFD824EA913500325EBA /* GoogleService-Info.plist */,
@@ -213,8 +222,19 @@
 				5E7AEFE724EBE6D500325EBA /* CardsStackView.swift */,
 				5E7AEFE524EBE60200325EBA /* TitleAndViewImage.swift */,
 				5E7AEFE924EBE73A00325EBA /* CardView.swift */,
+				5E79089224EEF8D700BBBA7E /* MenuView.swift */,
+				5E3EBFB124F17464008CF32A /* AboutView.swift */,
+				5E3EBFB324F176B7008CF32A /* ContactView.swift */,
 			);
 			path = view;
+			sourceTree = "<group>";
+		};
+		5E7AEFED24ED03DB00325EBA /* extensions */ = {
+			isa = PBXGroup;
+			children = (
+				5E7AEFEE24ED03ED00325EBA /* MathExtension.swift */,
+			);
+			path = extensions;
 			sourceTree = "<group>";
 		};
 		F8E756A34DE0670344E8E10A /* Frameworks */ = {
@@ -468,14 +488,18 @@
 				5E7AEFE424EBE5A700325EBA /* DailyView.swift in Sources */,
 				5E7AEFA524EA66E000325EBA /* ContentView.swift in Sources */,
 				5E7AEFE624EBE60200325EBA /* TitleAndViewImage.swift in Sources */,
+				5E3EBFB424F176B7008CF32A /* ContactView.swift in Sources */,
 				5E7AEFE224EBE54100325EBA /* BottomButtonsView.swift in Sources */,
+				5E3EBFB224F17464008CF32A /* AboutView.swift in Sources */,
 				5E7AEFCE24EA678200325EBA /* TicketRepository.swift in Sources */,
 				5E7AEFE824EBE6D500325EBA /* CardsStackView.swift in Sources */,
 				5E7AEFA324EA66E000325EBA /* demoApp.swift in Sources */,
+				5E79089324EEF8D700BBBA7E /* MenuView.swift in Sources */,
 				5E7AEFDB24EAA56000325EBA /* Match.swift in Sources */,
 				5E7AEFEC24EC143500325EBA /* Utility.swift in Sources */,
 				5E7AEFE024EBE4CC00325EBA /* PercentView.swift in Sources */,
 				5E7AEFEA24EBE73A00325EBA /* CardView.swift in Sources */,
+				5E7AEFEF24ED03ED00325EBA /* MathExtension.swift in Sources */,
 				5E7AEFD424EA67EF00325EBA /* Ticket.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

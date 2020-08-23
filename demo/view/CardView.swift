@@ -11,7 +11,6 @@ struct CardView: View {
     
     @Binding var ticket: Ticket
     
-//    @Binding var imageName : String
     @Binding var imageIndex : Int
     
     var dateFormatter: DateFormatter {
@@ -37,16 +36,41 @@ struct CardView: View {
                     .fontWeight(.bold)
                     .padding(.bottom)
                 
-                Text(ticket.type)
+                Text(ticket.type + " @ " + String(MathUtils.roundToPlaces(number: ticket.totalOdds, places : 2)))
                     .font(.title)
                     .fontWeight(.semibold)
                     .foregroundColor(Color.purple)
                     .padding(.bottom)
                 
-                Text("Let's buy this ticket")
-                    .font(.body)
-                    .lineLimit(2)
-                    .multilineTextAlignment(.center)
+                
+                ScrollView(showsIndicators : true) {
+                    ForEach(Array(ticket.matches.enumerated()), id: \.offset) { index, match in
+//                        VStack{
+                            
+//                            HStack{
+//                                Spacer()
+                        Divider()
+                        Text(match.homeTeam + " - " + match.awayTeam)
+//                            .padding()
+                                
+                        Text("Tips: " + match.tips)
+                                    .padding()
+//                                Spacer()
+//                            }
+                            
+//                        }
+//                        Divider()
+                    }.padding(.bottom)
+                    .padding(.horizontal, 44)
+                }
+                
+                
+                
+                
+//                Text("Let's buy this ticket")
+//                    .font(.body)
+//                    .lineLimit(2)
+//                    .multilineTextAlignment(.center)
             }.padding()
             
             Button(action: {
@@ -71,3 +95,5 @@ struct CardView_Previews: PreviewProvider {
         CardView(ticket: .constant(Ticket(id: "abc", type: "FREE", date: Date(), matches: [Match]())), imageIndex: .constant(1))
     }
 }
+
+
